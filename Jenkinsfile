@@ -27,5 +27,11 @@ pipeline {
             }
         }
 
+         stage('Artifactory') {
+            steps {
+                bat 'echo Artifactory'
+            }
+        }
+
     }
 }
